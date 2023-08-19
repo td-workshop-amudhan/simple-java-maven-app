@@ -122,7 +122,9 @@
     </plugins>
   </reporting>
 
-  <repository>
+  <repositories>
+    <distributionManagement>
+    <repository>
     <id>amudhand</id>
     <url>https://pkgs.dev.azure.com/amudhand/_packaging/amudhand/maven/v1</url>
       <releases>
@@ -131,6 +133,8 @@
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
-   </repository>
+     </repository>
+    </<distributionManagement>
+   </repositories>
   
 </project>
