@@ -108,16 +108,6 @@
         </executions>
         </plugin>
     </plugins>
-    <repository>
-      <id>amudhand</id>
-      <url>https://pkgs.dev.azure.com/amudhand/_packaging/amudhand/maven/v1</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
   </build>
   <reporting>
     <plugins>
